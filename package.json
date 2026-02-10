@@ -2,7 +2,8 @@
   "name": "example-4",
   "version": "1.0.0",
   "scripts": {
-    "test": "playwright test --reporter=list  --workers 1"
+    "test": "playwright test --reporter=list  --workers 1",
+    "test:unit": "node --test tests/unit/*.test.js"
   },
   "devDependencies": {
     "@playwright/test": "^1.37.1",
